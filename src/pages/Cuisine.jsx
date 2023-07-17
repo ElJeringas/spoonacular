@@ -5,6 +5,7 @@ import { AbortedDeferredError, Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
+
 function Cuisine() {
 const [cuisine, setCuisine] = useState([]);
 let params = useParams();
